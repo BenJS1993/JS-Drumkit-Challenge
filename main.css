@@ -1,14 +1,26 @@
+body, html {
+    height: 100%;
+    /* width: 100%; */
+    margin: 0;
+    /* padding: 0; */
+    overflow-y: hidden;
+}
+
 img {
-    height: 985px;
-    width: 1900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
+    color: black;
     text-transform: uppercase;
     font-family: 'Concert One', cursive;
     text-align: center;
     position: relative;
-    top: -1050px;
+    top: -105%;
     font-size: 100px;
 }
 
@@ -18,7 +30,7 @@ h2 {
     text-align: center;
     position: relative;
     font-size: 50px;
-    top: -815px;
+    top: -82.4%;
 }
 
 .button {
@@ -38,7 +50,7 @@ h2 {
     transition-duration: 0.4s;
     position: relative;
     margin: 0 auto;
-    bottom: 900px;
+    bottom: 800px;
 }
 
 .button:hover {
