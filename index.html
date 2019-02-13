@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <style>@import url('https://fonts.googleapis.com/css?family=Concert+One');
+    </style>
+    <img src="images/bg.png">
+    
+    <title>Document</title>
+</head>
+<body>
+        <audio id="drumClap">
+                <source src="./sounds/clap.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumHihat">
+                <source src="./sounds/hihat.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumKick">
+                <source src="./sounds/kick.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumOpenhat">
+                <source src="./sounds/openhat.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumBoom">
+                <source src="./sounds/boom.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumRide">
+                <source src="./sounds/ride.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumSnare">
+                <source src="./sounds/snare.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumTom">
+                <source src="./sounds/tom.wav" type="audio/wav"></source>
+            </audio>
+                <audio id="drumTink">
+                <source src="./sounds/tink.wav" type="audio/wav"></source>
+            </audio>
+
+    <h1>JavaScript Drum Kit</h1>
+
+    <h2>Use Keyboard to play drum</h2>
+
+    <div class="grid-container">
+    <button class="button" onclick="myDrumsound('drumClap')" type="buttonA">A Clap</button>
+    <button class="button" onclick="myDrumsound('drumHihat')" type="buttonS">S Hihat</button>
+    <button class="button" onclick="myDrumsound('drumKick')" type="buttonD">D Kick</button>
+    <button class="button" onclick="myDrumsound('drumOpenhat')" type="buttonF">F Openhat</button>
+    <button class="button" onclick="myDrumsound('drumBoom')" type="buttonG">G Boom</button>
+    <button class="button" onclick="myDrumsound('drumRide')" type="buttonH">H Ride</button>
+    <button class="button" onclick="myDrumsound('drumSnare')" type="buttonJ">J Snare</button>
+    <button class="button" onclick="myDrumsound('drumTom')" type="buttonK">K Tom</button>
+    <button class="button" onclick="myDrumsound('drumTink')" type="buttonL">L Tink</button>
+    </div>
+
+    <div class="keypresser">
+        <input type= "text" onkeypress="keycode()"></input>
+    </div>
+
+    <script src="app.js">
+        </script>
+</body>
+</html>
