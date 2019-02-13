@@ -1,0 +1,65 @@
+img {
+    height: 985px;
+    width: 1900px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    position: relative;
+    top: -1050px;
+    font-size: 100px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: -815px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    padding: auto;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    margin: auto;
+    transition-duration: 0.4s;
+    position: relative;
+    margin: 0 auto;
+    bottom: 900px;
+}
+
+.button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.button:active {
+    background-color: crimson;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 10px;
+    height: 250px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
